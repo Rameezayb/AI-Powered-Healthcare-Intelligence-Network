@@ -1,5 +1,6 @@
 from huggingface_hub import HfApi
 
 api = HfApi()
-user = api.whoami(token="hf_BmquDISDbKcpuRY")
+# Add your HuggingFace token here
+user = api.whoami(token="your_huggingface_token_here")
 print(user)
